@@ -13,7 +13,7 @@ a{
 .wrapper{
    
     width: 960px;
-    background: navajowhite;
+    background: #fff;
     margin: auto;
 }
 .menu{
@@ -28,7 +28,7 @@ a{
     border-right: 1px dotted #015f95;
 }
 .menu>ul>li:last-child{border-right: none;}
-.menu>ul>li>ul{
+.menu>ul>li ul{
     display: none;
     position: absolute;
     background: #015f95;
@@ -43,10 +43,10 @@ a{
     background: #38a343;
     transition:  all 0.25s;
 }
-.menu>ul>li>ul>li{
+.menu>ul>li>ul li{
     padding: 8px 10px;
 }
-.menu>ul>li>ul>li{
+.menu>ul>li>ul li{
     border-bottom: 1px dotted #015f95;
 }
 #top{
@@ -120,4 +120,37 @@ a{
     padding: 1px;
     float: left;
     margin-right: 5px;
+}
+.review {
+    width: 960px;
+    height: 150px;
+    margin: auto;
+}
+.review h1{
+    margin-left: 250px;
+    font-size: 24px;
+}
+.review p{
+    float: left;
+    font-size: 20px;
+}
+.searchh{
+    width: 960px;
+    height: 200px;
+    float: left;
+    margin-left: 160px;
+
+}
+.searchh h3{
+
+    font-size: 30px;
+}
+#searchdata{
+    float: left;
+    padding: 0px 5px 5px 10px;
+
+}
+#searchdata select {
+    padding: 10px 10px 10px 10px;
+
 }
